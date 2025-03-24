@@ -1,14 +1,35 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package inmueble;
+public class CasaRural extends Inmueble{
+    protected double distanciaCabecera;
+    protected double altitud;
 
-/**
- *
- * @author Jhon Bellaizac
- */
-public class CasaRural {
+    public CasaRural(double distanciaCabecera, double altitud, int identificadorInmobiliario, int area, String direccion) {
+        super(identificadorInmobiliario, area, direccion);
+        this.distanciaCabecera = distanciaCabecera;
+        this.altitud = altitud;
+    }
+
+    
+    public double calcularValor(){
+    return area * 1500000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
