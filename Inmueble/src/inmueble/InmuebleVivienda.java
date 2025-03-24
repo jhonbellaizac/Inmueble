@@ -1,6 +1,7 @@
 package inmueble;
 public class InmuebleVivienda {
 
+
 protected int numeroHabitaciones;
 protected int numeroBaños;
 
