@@ -7,24 +7,4 @@ public class Casa extends Inmueble{
         super(identificadorInmobiliario, area, direccion);
         this.pisos = pisos;
     }
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }

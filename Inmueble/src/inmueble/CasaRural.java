@@ -9,27 +9,7 @@ public class CasaRural extends Inmueble{
         this.altitud = altitud;
     }
 
-    
     public double calcularValor(){
     return area * 1500000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }

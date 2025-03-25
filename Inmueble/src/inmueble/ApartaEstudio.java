@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package inmueble;
+public class ApartaEstudio extends Apartamento{
 
-/**
- *
- * @author Jhon Bellaizac
- */
-public class ApartaEstudio {
-    
+    public ApartaEstudio(double valorArea, double valorAdministracion, int identificadorInmobiliario, int area, String direccion, int numeroHabitaciones, int numeroBaños) {
+        super(valorAdministracion, identificadorInmobiliario, area, direccion, numeroHabitaciones, numeroBaños);
+    }
+
+    public double calcularValor (){
+        return area *1500000;
+    }
 }

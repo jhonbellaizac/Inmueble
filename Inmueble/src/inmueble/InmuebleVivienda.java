@@ -10,26 +10,5 @@ protected int numeroBaños;
         super(identificadorInmobiliario, area, direccion);
         this.numeroHabitaciones = numeroHabitaciones;
         this.numeroBaños = numeroBaños;
-        
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }
