@@ -17,7 +17,7 @@ public double calcularValor(){
     if (conjuntoCerrado){
         valorMetroCuadrado = 2500000;
     }else {
-        valorMetroCuadrado = 3000000;
+        valorMetroCuadrado = 30000000;
     }
     return area * valorMetroCuadrado;
 }   

@@ -5,7 +5,7 @@ public class ApartamentoFamiliar extends Apartamento{
     }
     
     public double calcularValor(){
-        return area * 2000000;
+        return area * 20000000;
     }
     
     

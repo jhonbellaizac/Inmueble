@@ -6,6 +6,6 @@ public class ApartaEstudio extends Apartamento{
     }
 
     public double calcularValor (){
-        return area *1500000;
+        return area *15000000;
     }
 }
