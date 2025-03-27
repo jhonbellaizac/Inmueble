@@ -3,6 +3,7 @@ public class CasaUrbana extends Casa{
     protected boolean conjuntoCerrado;
     protected double valorAdministracion;
     protected double areasComunes;
+    
 
     public CasaUrbana(boolean conjuntoCerrado, double valorAdministracion, double areasComunes, int pisos, int identificadorInmobiliario, int area, String direccion) {
         super(pisos, identificadorInmobiliario, area, direccion);
@@ -17,7 +18,7 @@ public double calcularValor(){
     if (conjuntoCerrado){
         valorMetroCuadrado = 2500000;
     }else {
-        valorMetroCuadrado = 30000000;
+        valorMetroCuadrado = 3000000;
     }
     return area * valorMetroCuadrado;
 }   
